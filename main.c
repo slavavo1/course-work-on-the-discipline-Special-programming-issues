@@ -182,13 +182,13 @@ void saving_in_the_list()
 }
 
 
-//
-// @brief      { Сортировка текстового поля связанного списка по алфавиту. }
-//
-// @param      header  The header
-//
-// @return     { description_of_the_return_value }
-//
+/**
+* @brief      { Сортировка текстового поля связанного списка по алфавиту. }
+*
+* @param      header  The header
+*
+* @return     { description_of_the_return_value }
+*/
 struct node* mergeSort(struct node* header) {
     if (header == NULL || header->next == NULL) {
         return header;
