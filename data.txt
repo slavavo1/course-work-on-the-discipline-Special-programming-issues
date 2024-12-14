@@ -1,6 +1,6 @@
-100,registers
-20,diodes
-30,capacitors
-35,inductors
-2,generators
-1,receivers
+100,register
+20,diode
+30,capacitor
+35,inductor
+2,generator
+1,receiver
